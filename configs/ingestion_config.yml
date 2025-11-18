@@ -1,0 +1,25 @@
+sources:
+  transactions_v1:
+    filename_pattern: "transactions*.csv"
+    table: raw.transactions
+    delimiter: ","
+
+    required_columns:
+      - transaction_id
+      - transaction_ts
+      - customer_id
+      - total_amount
+
+    unique_key: transaction_id
+    parse_dates:
+      - transaction_ts
+
+    # Column name normalization mapping (modify when new CSV arrives)
+    column_map:
+      transaction_id: transaction_id
+      ts: transaction_ts
+      trans_timestamp: transaction_ts
+      cust_id: customer_id
+      customer: customer_id
+      amount: total_amount
+      total: total_amount
