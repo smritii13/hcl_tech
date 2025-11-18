@@ -19,7 +19,7 @@ Segmentation & Scoring → RFM, High-Spender, At-Risk, CLV Potential
 Serving Layer → Dashboards & Insights
 
 3. ER Diagram
-
+<img width="3680" height="2582" alt="Untitled diagram-2025-11-18-083401" src="https://github.com/user-attachments/assets/11149e67-fd4b-4c8b-a81f-d3388bb2ea31" />
 
 4. Data Model Summary
 
